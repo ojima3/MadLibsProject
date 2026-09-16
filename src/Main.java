@@ -25,8 +25,27 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		// YOUR CODE GOES HERE!!!!
+		System.out.println("Give me a whole number:  ");
+		int number1 = in.nextInt();
+		in.nextLine();
 		
+		System.out.println("Give me a plural noun:   ");
+		String pluralNoun = in.nextLine();
+		System.out.println("Give me an adjective:  ");
+		String adjective= in.nextLine();
+		System.out.println("Give me a verb:  ");
+		String verb = in.nextLine();
+		System.out.println("Give me a noun");
+		String noun = in.nextLine();		
+		System.out.println("Give me an adjective");
+		String adjective2 = in.nextLine();
 		
+		System.out.println("A recent sruvey informs us that one of every " + pluralNoun + " owns a " + adjective + " phone. ");
+		System.out.println("Fortunately, " + verb + "has improved in recent years.");
+		System.out.println("Today, " + noun+ " are all the  rage.");
+		System.out.println("In response, you find many " + pluralNoun + " taking " + adjective + " into their phones." );
+		System.out.println("Walking and talking are now the method " + noun + "to do");
+		System.out.println("Over " + number1 + " percent of Americans walk our " + adjective + " streets. ");
 		
 		
 		
